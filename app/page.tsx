@@ -127,28 +127,28 @@ export default function LandingPage() {
           {/* Signup Button */}
           <Link href="/prelogin" style={{ textDecoration: 'none' }}>
             <button
-            style={{
-              padding: '8px 16px',
-              borderRadius: 'var(--radius-md)',
-              border: 'none',
-              background: 'var(--color-primary)',
-              color: '#fff',
-              cursor: 'pointer',
-              fontSize: 13,
-              fontWeight: 600,
-              transition: 'all 0.3s ease',
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.opacity = '0.9'
-              e.currentTarget.style.transform = 'translateY(-2px)'
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.opacity = '1'
-              e.currentTarget.style.transform = 'translateY(0)'
-            }}
-          >
-            Sign Up
-          </button>
+              style={{
+                padding: '8px 16px',
+                borderRadius: 'var(--radius-md)',
+                border: 'none',
+                background: 'var(--color-primary)',
+                color: '#fff',
+                cursor: 'pointer',
+                fontSize: 13,
+                fontWeight: 600,
+                transition: 'all 0.3s ease',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.opacity = '0.9'
+                e.currentTarget.style.transform = 'translateY(-2px)'
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.opacity = '1'
+                e.currentTarget.style.transform = 'translateY(0)'
+              }}
+            >
+              Sign Up
+            </button>
           </Link>
         </div>
       </nav>
@@ -156,7 +156,7 @@ export default function LandingPage() {
       {/* Hero Section */}
       <section style={{
         padding: '80px 5% 60px',
-        background: resolvedTheme === 'dark' 
+        background: resolvedTheme === 'dark'
           ? 'linear-gradient(135deg,rgba(10,15,30,1) 0%,rgba(15,74,40,0.3) 50%,rgba(10,15,30,1) 100%)'
           : 'linear-gradient(135deg,rgba(248,255,254,1) 0%,rgba(220,238,231,0.5) 50%,rgba(248,255,254,1) 100%)',
         position: 'relative',
@@ -201,7 +201,6 @@ export default function LandingPage() {
             <span style={{
               background: 'linear-gradient(135deg,#22c55e,#10b981)',
               backgroundClip: 'text',
-              textFillColor: 'transparent',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
             }}>
@@ -236,14 +235,14 @@ export default function LandingPage() {
                 gap: 8,
                 transition: 'all 0.3s ease',
               }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.opacity = '0.9'
-                e.currentTarget.style.transform = 'translateY(-2px)'
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.opacity = '1'
-                e.currentTarget.style.transform = 'translateY(0)'
-              }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.opacity = '0.9'
+                  e.currentTarget.style.transform = 'translateY(-2px)'
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.opacity = '1'
+                  e.currentTarget.style.transform = 'translateY(0)'
+                }}
               >
                 Get Started <ArrowRight size={18} />
               </button>
@@ -264,14 +263,14 @@ export default function LandingPage() {
                 gap: 8,
                 transition: 'all 0.3s ease',
               }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.borderColor = 'var(--color-primary)'
-                e.currentTarget.style.color = 'var(--color-primary)'
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.borderColor = 'var(--color-border)'
-                e.currentTarget.style.color = 'var(--color-text)'
-              }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = 'var(--color-primary)'
+                  e.currentTarget.style.color = 'var(--color-primary)'
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = 'var(--color-border)'
+                  e.currentTarget.style.color = 'var(--color-text)'
+                }}
               >
                 <ExternalLink size={16} /> Create ABHA Number
               </button>
@@ -352,14 +351,14 @@ export default function LandingPage() {
                 transition: 'all 0.3s ease',
                 cursor: 'pointer',
               }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.borderColor = 'var(--color-primary)'
-                e.currentTarget.style.transform = 'translateY(-4px)'
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.borderColor = 'var(--color-border)'
-                e.currentTarget.style.transform = 'translateY(0)'
-              }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = 'var(--color-primary)'
+                  e.currentTarget.style.transform = 'translateY(-4px)'
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = 'var(--color-border)'
+                  e.currentTarget.style.transform = 'translateY(0)'
+                }}
               >
                 <span style={{ fontSize: 28 }}>{f.icon}</span>
                 <div>
