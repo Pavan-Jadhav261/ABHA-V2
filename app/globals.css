@@ -45,6 +45,24 @@
   --sidebar-accent-foreground: #0D1F1B;
   --sidebar-border: #d0e8e1;
   --sidebar-ring: #0A7764;
+  /* Custom color variables for landing page */
+  --color-bg: #F8FFFE;
+  --color-bg2: #EEF7F4;
+  --color-bg3: #DCEEE7;
+  --color-text: #0D1F1B;
+  --color-text2: #3D5B52;
+  --color-text3: #6B8F86;
+  --color-text4: #8BAFA6;
+  --color-primary: #0A7764;
+  --color-primary-light: #12B88A;
+  --color-secondary: #1A6EBF;
+  --color-border: #d0e8e1;
+  --color-border2: #C9DFD5;
+  --color-info: #3B82F6;
+  --radius-full: 9999px;
+  --radius-xl: 1.5rem;
+  --radius-lg: 1rem;
+  --radius-md: 0.75rem;
 }
 
 .dark {
@@ -88,6 +106,24 @@
   --sidebar-accent-foreground: #F8FFFE;
   --sidebar-border: #1E4A3F;
   --sidebar-ring: #12B88A;
+  /* Custom color variables for landing page - dark mode */
+  --color-bg: #0D1F1B;
+  --color-bg2: #14332C;
+  --color-bg3: #1E4A3F;
+  --color-text: #F8FFFE;
+  --color-text2: #BFD9D2;
+  --color-text3: #8BAFA6;
+  --color-text4: #6B8F86;
+  --color-primary: #12B88A;
+  --color-primary-light: #5AA3E8;
+  --color-secondary: #1A6EBF;
+  --color-border: #1E4A3F;
+  --color-border2: #2A5847;
+  --color-info: #5AA3E8;
+  --radius-full: 9999px;
+  --radius-xl: 1.5rem;
+  --radius-lg: 1rem;
+  --radius-md: 0.75rem;
 }
 
 @theme inline {
